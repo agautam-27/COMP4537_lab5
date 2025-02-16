@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5ebe0; 
+    color: #4a3f35; 
+    text-align: center;
+    padding: 20px;
+}
+
+/* Headings */
+h1, h2 {
+    color: #5d4037; 
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Button Styles */
+button {
+    background-color: #d2b48c; 
+    color: #4a3f35; 
+    border: none;
+    padding: 12px 18px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 10px 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: bold;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #c2a37a; 
+}
+
+/* Textarea Styling */
+textarea {
+    width: 70%; 
+    max-width: 500px;
+    height: 100px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #c2a37a; 
+    border-radius: 5px;
+    background-color: #fdf8f3; 
+    color: #4a3f35; 
+    resize: vertical;
+}
+
+/* General Centering for Response Box */
+#response {
+    margin: 20px auto; 
+    padding: 10px;
+    border: 1px solid #c2a37a;
+    background-color: #fdf8f3;
+    min-height: 50px;
+    width: 70%; 
+    max-width: 600px;
+    text-align: center; 
+    overflow-x: auto;
+    border-radius: 5px;
+}
+
+#response p {
+    text-align: center;
+    margin: 5px 0;
+}
+
+/* Table Styles */
+table {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fdf8f3;
+    color: #4a3f35;
+    border-radius: 5px;
+}
+
+/* Table Headers */
+th {
+    background-color: #c2a37a; /* Beige */
+    color: #4a3f35;
+    padding: 8px;
+}
+
+/* Table Cells */
+td {
+    border: 1px solid #d2b48c;
+    padding: 8px;
+}
+
+/* Alternate row coloring */
+tr:nth-child(even) {
+    background-color: #efe2d1;
+}
